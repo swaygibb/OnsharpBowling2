@@ -10,6 +10,7 @@ const basePlayerGame = {
     frame9: { score1: '0', score2: '0', total: '0', active1: false, active2: false },
     frame10: { score1: '0', score2: '0', score3: '0', total: '0', active1: false, active2: false, active3: false },
     player_active: false,
+    grand_total: 0
 };
 
 export default basePlayerGame;

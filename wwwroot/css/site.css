@@ -91,3 +91,21 @@ footer a:hover {
 h1 small {
     font-size: 15px;
 }
+
+.score-two-short {
+    width: 25%;
+    height: 38px;
+    position: absolute;
+    top: 0px;
+    right: 25%;
+    padding-top: 8%;
+}
+
+.score-three-short {
+    width: 25%;
+    height: 38px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 8%;
+}
