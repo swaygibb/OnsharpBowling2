@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OnsharpBowling2.props" />
+</Project>
