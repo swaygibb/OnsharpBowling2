@@ -1,0 +1,93 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+}
+
+body {
+    background-color: #273b76;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+footer {
+    background-color: #273b76;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: lightblue;
+}
+
+.container {
+    background-color: #273b76;
+    color: white;
+}
+
+.score-parent {
+    position: relative;
+}
+
+.score-one {
+    text-align: left;
+    padding-top: 10%;
+    margin-left: 14%;
+    width: 25%;
+    padding-left: 8%;
+}
+
+.score-two {
+    width: 46%;
+    height: 38px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 8%;
+}
+
+.score-total {
+    margin-top: 14%;
+}
+
+.highlight-text {
+    font-weight: bold;
+    border-bottom: 1px dashed #000000;
+}
+
+h1 small {
+    font-size: 15px;
+}
