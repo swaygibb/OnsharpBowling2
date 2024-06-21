@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\App.jsx"
     },
     {
+      "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\components\\BowlingButtons.jsx",
+      "PackagePath": "staticwebassets\\js\\components\\BowlingButtons.jsx"
+    },
+    {
       "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\components\\BowlingGame.jsx",
       "PackagePath": "staticwebassets\\js\\components\\BowlingGame.jsx"
     },
@@ -33,8 +37,24 @@
       "PackagePath": "staticwebassets\\js\\components\\PlayerForm.jsx"
     },
     {
+      "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\components\\PlayerFrames.jsx",
+      "PackagePath": "staticwebassets\\js\\components\\PlayerFrames.jsx"
+    },
+    {
       "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\data\\basePlayerGame.js",
       "PackagePath": "staticwebassets\\js\\data\\basePlayerGame.js"
+    },
+    {
+      "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\utilities\\bowlingUtils.js",
+      "PackagePath": "staticwebassets\\js\\utilities\\bowlingUtils.js"
+    },
+    {
+      "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\utilities\\calculateFrameTotals.js",
+      "PackagePath": "staticwebassets\\js\\utilities\\calculateFrameTotals.js"
+    },
+    {
+      "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\utilities\\calculateGrandTotal.js",
+      "PackagePath": "staticwebassets\\js\\utilities\\calculateGrandTotal.js"
     },
     {
       "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\lib\\bootstrap\\LICENSE",
