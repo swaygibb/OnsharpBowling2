@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PeLA8z2ygzMo6YSdutbS83LriLEWisQNb6KaBqdC2g4=",
+  "Hash": "5JGq8lqZOzjTakCR2wF0YxGyFv6Q0ZjIMBci6yYK48o=",
   "Source": "OnsharpBowling2",
   "BasePath": "_content/OnsharpBowling2",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\components\\BowlingGame.jsx"
+    },
+    {
+      "Identity": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\components\\GameHistory.jsx",
+      "SourceId": "OnsharpBowling2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\",
+      "BasePath": "_content/OnsharpBowling2",
+      "RelativePath": "js/components/GameHistory.jsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\components\\GameHistory.jsx"
     },
     {
       "Identity": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\components\\PlayerForm.jsx",

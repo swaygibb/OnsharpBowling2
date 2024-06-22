@@ -4,8 +4,9 @@ import BowlingButtons from './BowlingButtons';
 import PlayerFrames from './PlayerFrames';
 import handleScoreClick from '../utilities/bowlingUtils';
 
-const BowlingGame = ({ players, handleResetGame }) => {
+const BowlingGame = ({ players, handleResetGame, setShowHistory }) => {
     const [gamePlayers, setGamePlayers] = useState([]);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         if (Array.isArray(players)) {
@@ -36,6 +37,28 @@ const BowlingGame = ({ players, handleResetGame }) => {
         handleResetGame();
     };
 
+    const handleFinishGame = async () => {
+        await finishGame();
+    }
+
+    const finishGame = async () => {
+        const response = await fetch('/Game/FinishGame', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(gamePlayers)
+        });
+
+        if (response.ok) {
+            setError(null);
+            handleResetBowlingGame();
+            setShowHistory(true);
+        } else {
+            setError('Failed to add game');
+        }
+    };
+
     const getActivePlayer = () => {
         let activePlayer = null;
         gamePlayers.forEach((player) => {
@@ -53,6 +76,11 @@ const BowlingGame = ({ players, handleResetGame }) => {
     return (
         <div className="container">
             <h1 className="mt-4">Bowling Game <small>Currently Bowling: {getActivePlayer()}</small></h1>
+            {error && (
+                <div className="alert alert-danger" role="alert">
+                    {error}
+                </div>
+            )}
             <p>Submit Throw:</p>
             <BowlingButtons handleScoreClick={handleButtonClick} />
             <div className="row border rounded">
@@ -70,6 +98,9 @@ const BowlingGame = ({ players, handleResetGame }) => {
             </div>
             <button type="button" className="btn btn-secondary mt-2" onClick={handleResetBowlingGame}>
                 Reset Game
+            </button>
+            <button type="button" className="btn btn-danger mt-2 ms-2" onClick={handleFinishGame}>
+                Finish Game
             </button>
         </div>
     );
