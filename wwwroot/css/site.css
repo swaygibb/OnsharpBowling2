@@ -109,3 +109,7 @@ h1 small {
     right: 0px;
     padding-top: 8%;
 }
+
+.table-white-bg {
+    background-color: white;
+}

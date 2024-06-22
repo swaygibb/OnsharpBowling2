@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\js\\components\\BowlingGame.jsx"
     },
     {
+      "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\components\\GameHistory.jsx",
+      "PackagePath": "staticwebassets\\js\\components\\GameHistory.jsx"
+    },
+    {
       "Id": "C:\\Users\\swayg\\code\\OnsharpBowling2\\wwwroot\\js\\components\\PlayerForm.jsx",
       "PackagePath": "staticwebassets\\js\\components\\PlayerForm.jsx"
     },
