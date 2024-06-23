@@ -4,6 +4,8 @@ The Webpack bundle should be in this repo, so you should just have to pull down 
 
 If you are having issues, try running 'npm run build' (will build the webpack bundle for the react code)
 
+The application is build with .NET MVC and React
+
 Player Setup:
 ![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/8c44c193-5111-451c-9bfb-e4063a3f28bc)
 
@@ -18,3 +20,18 @@ Bowling Tips:
 
 Start Game: 
 ![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/9e945ad3-ee20-4bb4-be77-a88dc0821179)
+
+Perfect Game:
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/d26d47df-df4e-46e7-b8f6-a1ac748ab016)
+
+Finish Game:
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/d5a715b0-20ea-4c07-9e12-cbb61dd4aefe)
+
+Not So Perfect Game:
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/281dd935-db22-4e9d-a44a-c39599fa72e5)
+
+Finish Not So Perfect Game:
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/a9592cd0-8755-4690-aae7-e8205e4ac199)
+
+Clear Game History:
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/641a157a-ab32-4324-b495-8690db3585c7)
