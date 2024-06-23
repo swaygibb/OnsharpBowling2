@@ -23,7 +23,7 @@ const GameHistory = () => {
 
     const getScoreStatus = (score) => {
         if (score >= 50 && score <= 129) {
-            return "Beginner: A beginner bowler might score between 50-70 points in their first game.";
+            return "Beginner: A beginner bowler might score between 50-129 points in their first game.";
         } else if (score >= 130 && score <= 150) {
             return "Average: An average bowler might score between 130-150 points.";
         } else if (score > 150 && score <= 200) {
