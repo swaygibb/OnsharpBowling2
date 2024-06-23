@@ -6,6 +6,8 @@ If you are having issues, try running 'npm run build' (will build the webpack bu
 
 The application is build with .NET MVC and React
 
+The data is all stored in the current session, I wanted you to be able to pull down the project and run and save the data right away with no setup.
+
 Player Setup:
 ![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/8c44c193-5111-451c-9bfb-e4063a3f28bc)
 
