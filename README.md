@@ -37,3 +37,6 @@ Finish Not So Perfect Game:
 
 Clear Game History:
 ![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/641a157a-ab32-4324-b495-8690db3585c7)
+
+API Documentation (Link in footer or /Home/APIDocumentation):
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/f6f46266-1def-4b52-973d-4f490a76d943)
