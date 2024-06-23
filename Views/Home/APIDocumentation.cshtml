@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["Title"] = "API Documentation";
+}
+
+<div class="container">
+    <h1>Bowling Game API Documentation</h1>
+
+    <a href="/" class="btn btn-secondary mt-3 mb-4">Back to Bowling</a>
+
+    <h2>HomeController</h2>
+    <hr />
+
+    <h3>GetPlayers</h3>
+    <hr />
+
+    <p><strong>Endpoint:</strong> GET /Home/GetPlayers</p>
+    <p><strong>Description:</strong> Retrieves the list of players from the session.</p>
+    <p><strong>Responses:</strong></p>
+    <ul>
+        <li>200 OK - Returns a JSON array of player names.</li>
+    </ul>
+    <hr />
+
+    <h3>AddPlayer</h3>
+    <hr />
+
+    <p><strong>Endpoint:</strong> POST /Home/AddPlayer</p>
+    <p><strong>Description:</strong> Adds a new player to the session.</p>
+    <p><strong>Request Body:</strong> JSON object with player details.</p>
+    <pre>
+    {
+        "name": "string"
+    }
+    </pre>
+    <p><strong>Responses:</strong></p>
+    <ul>
+        <li>200 OK - Returns the updated list of players.</li>
+        <li>400 Bad Request - If the player name is invalid.</li>
+    </ul>
+    <hr />
+
+    <h3>RemovePlayer</h3>
+    <hr />
+
+    <p><strong>Endpoint:</strong> POST /Home/RemovePlayer</p>
+    <p><strong>Description:</strong> Removes a player from the session.</p>
+    <p><strong>Request Body:</strong> JSON object with player details.</p>
+    <pre>
+    {
+        "name": "string"
+    }
+    </pre>
+    <p><strong>Responses:</strong></p>
+    <ul>
+        <li>200 OK - Returns the updated list of players.</li>
+        <li>400 Bad Request - If the player name is invalid.</li>
+    </ul>
+    <hr />
+
+    <h2>GameController</h2>
+    <hr />
+
+    <h3>GetGames</h3>
+    <hr />
+
+    <p><strong>Endpoint:</strong> GET /Game/GetGames</p>
+    <p><strong>Description:</strong> Retrieves the list of games from the session.</p>
+    <p><strong>Responses:</strong></p>
+    <ul>
+        <li>200 OK - Returns a JSON array of games.</li>
+    </ul>
+    <hr />
+
+    <h3>FinishGame</h3>
+    <hr />
+
+    <p><strong>Endpoint:</strong> POST /Game/FinishGame</p>
+    <p><strong>Description:</strong> Adds the completed game to the session.</p>
+    <p><strong>Request Body:</strong> JSON array of player models.</p>
+    <pre>
+    [
+        {
+            "name": "string",
+            "game": "object"
+        }
+    ]
+    </pre>
+    <p><strong>Responses:</strong></p>
+    <ul>
+        <li>200 OK - Returns the updated list of games.</li>
+        <li>400 Bad Request - If the game data is invalid.</li>
+    </ul>
+    <hr />
+
+    <h3>ClearGameHistory</h3>
+    <hr />
+
+    <p><strong>Endpoint:</strong> POST /Game/ClearGameHistory</p>
+    <p><strong>Description:</strong> Clears the game history from the session.</p>
+    <p><strong>Responses:</strong></p>
+    <ul>
+        <li>200 OK - Returns a success message.</li>
+    </ul>
+    <hr />
+</div>
