@@ -41,7 +41,15 @@ const handleScoreClick = (gamePlayers, setGamePlayers, score) => {
 
                     playerUpdated = true;
                     break;
-                } else if (player.game[`frame${i}`].active2 === true && i == 10 && ((parseInt(player.game[`frame${i}`].score1) + parseInt(score)) >= 10 || score == "X" || player.game[`frame${i}`].score1 == "X")) {
+                } else if (
+                    player.game[`frame${i}`].active2 === true &&
+                    i == 10 &&
+                    (
+                        (parseInt(player.game[`frame${i}`].score1) + parseInt(score)) >= 10 ||
+                        score == "X" ||
+                        player.game[`frame${i}`].score1 == "X"
+                    )
+                ) {
 
                     player.game[`frame${i}`].active2 = false;
                     player.game[`frame${i}`].active3 = true;
@@ -56,7 +64,15 @@ const handleScoreClick = (gamePlayers, setGamePlayers, score) => {
 
                     playerUpdated = true;
                     break;
-                } else if (player.game[`frame${i}`].active2 === true && (i != 10 || !((parseInt(player.game[`frame${i}`].score1) + parseInt(score)) >= 10))) {
+                } else if (
+                    player.game[`frame${i}`].active2 === true &&
+                    (
+                        i != 10 ||
+                        !(
+                            (parseInt(player.game[`frame${i}`].score1) + parseInt(score)) >= 10
+                        )
+                    )
+                ) {
                     player.game[`frame${i}`].active2 = false;
 
                     if ((parseInt(player.game[`frame${i}`].score1) + parseInt(score)) >= 10) {
@@ -85,7 +101,14 @@ const handleScoreClick = (gamePlayers, setGamePlayers, score) => {
                     }
                     playerUpdated = true;
                     break;
-                } else if (i == 10 && player.game[`frame${i}`].active3 === true && (["/", "X"].includes(player.game[`frame${i}`].score2) || ["/", "X"].includes(player.game[`frame${i}`].score1))) {
+                } else if (
+                    i == 10 &&
+                    player.game[`frame${i}`].active3 === true &&
+                    (
+                        ["/", "X"].includes(player.game[`frame${i}`].score2) ||
+                        ["/", "X"].includes(player.game[`frame${i}`].score1)
+                    )
+                ) {
 
                     player.game[`frame${i}`].active3 = false;
                     player.game[`frame${i}`].score3 = score;

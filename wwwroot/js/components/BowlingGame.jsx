@@ -53,7 +53,6 @@ const BowlingGame = ({ players, handleResetGame, setShowHistory }) => {
         if (response.ok) {
             setError(null);
             handleResetBowlingGame();
-            setShowHistory(true);
         } else {
             setError('Failed to add game');
         }

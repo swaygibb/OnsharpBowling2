@@ -7,6 +7,7 @@
         const score3 = frame.score3
 
         if (i == 10 && score3) {
+
             let total1 = ["X"].includes(score1) ? 10 : score1;
             let total2 = ["X"].includes(score2) ? 10 : score2;
             let total3 = ["X"].includes(score3) ? 10 : score3;
@@ -16,6 +17,7 @@
             }
 
             total += parseInt(total1) + parseInt(total2) + parseInt(total3);
+
         } else if (score1 == "X") {
 
             let firstSingleScore = 0;
@@ -57,10 +59,12 @@
             }
 
         } else {
+
             total += parseInt(score1) + parseInt(score2);
             if (i == 10 && score3) {
                 total += parseInt(score3);
             }
+
         }
     }
     player.game.grand_total = total;
