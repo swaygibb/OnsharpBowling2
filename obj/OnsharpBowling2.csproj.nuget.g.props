@@ -12,4 +12,13 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\swayg\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.testing.platform\1.2.1\buildTransitive\net8.0\Microsoft.Testing.Platform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform\1.2.1\buildTransitive\net8.0\Microsoft.Testing.Platform.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testing.platform.msbuild\1.2.1\buildTransitive\net8.0\Microsoft.Testing.Platform.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform.msbuild\1.2.1\buildTransitive\net8.0\Microsoft.Testing.Platform.MSBuild.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testing.extensions.telemetry\1.2.1\buildTransitive\net8.0\Microsoft.Testing.Extensions.Telemetry.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.extensions.telemetry\1.2.1\buildTransitive\net8.0\Microsoft.Testing.Extensions.Telemetry.props')" />
+    <Import Project="$(NuGetPackageRoot)mstest.testadapter\3.4.3\build\net8.0\MSTest.TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)mstest.testadapter\3.4.3\build\net8.0\MSTest.TestAdapter.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_TestPlatform Condition=" '$(PkgMicrosoft_TestPlatform)' == '' ">C:\Users\swayg\.nuget\packages\microsoft.testplatform\17.10.0</PkgMicrosoft_TestPlatform>
+  </PropertyGroup>
 </Project>

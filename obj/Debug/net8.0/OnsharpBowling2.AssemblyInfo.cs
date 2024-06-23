@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnsharpBowling2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ca5233644d2b29773d4fc57741d2cfd6b929af4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19d3981f1fee229b4ebd948b9b38a9c5b5aed564")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnsharpBowling2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnsharpBowling2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
