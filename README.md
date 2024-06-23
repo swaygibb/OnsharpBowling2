@@ -9,7 +9,7 @@ The application is build with .NET MVC and React
 The data is all stored in the current session, I wanted you to be able to pull down the project and run and save the data right away with no setup.
 
 Player Setup:
-![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/8c44c193-5111-451c-9bfb-e4063a3f28bc)
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/58edb7b5-cbe5-4b7f-9941-f52675f8add1)
 
 Player List:
 ![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/d551e07a-05df-49b7-9f5b-b375410faded)
