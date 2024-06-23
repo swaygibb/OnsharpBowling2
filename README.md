@@ -31,7 +31,7 @@ Not So Perfect Game:
 ![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/281dd935-db22-4e9d-a44a-c39599fa72e5)
 
 Finish Not So Perfect Game:
-![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/a9592cd0-8755-4690-aae7-e8205e4ac199)
+![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/3e5feaaa-3d88-4dac-b8f0-9ccc01c25157)
 
 Clear Game History:
 ![image](https://github.com/swaygibb/OnsharpBowling2/assets/8303711/641a157a-ab32-4324-b495-8690db3585c7)
